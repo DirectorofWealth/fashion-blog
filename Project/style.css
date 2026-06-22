@@ -42,13 +42,15 @@ body {
     gap: 25px;
 }
 
-.utility-nav li {
+.utility-nav li, .utility-nav a{
     font-size: 12px;
+    color: #fff;
     cursor: pointer;
     transition: 0.3s;
+    text-decoration: none;
 }
 
-.utility-nav li:hover {
+.utility-nav a:hover {
     color: gold;
 }
 
@@ -61,34 +63,58 @@ body {
     border-bottom: 1px solid #ddd;
 }
 
+.second-nav nav{
+    width: 100%;
+    display: flex;
+    justify-items: center;
+}
+
 .main-nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
+
+/* .nav-icons {
+    display: flex;
+    gap:1rem;
+} */
 
 .main-nav ul {
     display: flex;
     list-style: none;
     gap: 30px;
+    
 }
 
-.main-nav li {
+.main-nav li, .main-nav a {
+    display:flex;
     font-size: 12px;
     font-weight: 600;
     cursor: pointer;
     transition: 0.3s;
+    text-decoration: none;
+    color: #111;
 }
 
-.main-nav li:hover {
+.main-nav a:hover {
     color: goldenrod;
+}
+
+.utility-nav a:active {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
 }
 
 img {
     width: 2rem;
     height: 2rem;
-    margin-right: 5rem;
+    /* margin-right: 4rem; */
     border: none;
     border-radius: 1rem;
     cursor: pointer;
 }
+
+
+/*Hero Section*/
