@@ -182,3 +182,81 @@ header {
 
 /* Other Sections */
 
+/* POST */
+
+.post-section {
+    max-width: 1050px;
+    margin: 3rem auto 0 auto;
+    /* padding: 40px 20px; */
+    padding: 12px;
+}
+
+.seection-title {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.post-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5px;
+    row-gap: 10px;
+}
+
+.post-card {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 440px;
+}
+
+.image-wrapper {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.category {
+    font-size: 11px;
+    color: #a8a8a8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 12px 0;
+}
+
+.post-title {
+    font-size: 15px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.post-details p {
+    font-size: 10px;
+    color: #a8a8a8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#latest-post {
+    margin-bottom: 1px;
+}
+
+#popular-post {
+    margin-top: 1px;
+}
